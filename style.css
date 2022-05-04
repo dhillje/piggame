@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 * {
   margin: 0;
@@ -12,11 +12,11 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  background-image: linear-gradient(to top left, #c5bac7 0%, #3989cf 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,8 +50,6 @@ main {
   position: relative;
   font-size: 4rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  word-spacing: 2px;
   font-weight: 300;
   margin-bottom: 1rem;
 }
@@ -59,7 +57,7 @@ main {
 .score {
   font-size: 8rem;
   font-weight: 300;
-  color: #c7365f;
+  color: #36afc7;
   margin-bottom: auto;
 }
 
@@ -78,7 +76,7 @@ main {
 }
 
 .current {
-  background-color: #c7365f;
+  background-color: #36afc7;
   opacity: 0.8;
   border-radius: 9px;
   color: #fff;
